@@ -20,6 +20,7 @@ export default class EmojisContainer extends Component {
         <h1 className={styles.title}>Emoji Searcher</h1>
         <Search text={this.state.text} handleSearchUpdate={this.handleSearchUpdate}/>
         <Emojis emojis={emojiList.filter(emoji => emoji.name.includes(this.state.text))}/>
+        <p className={styles.copyright}>Ⓒ   Lili Boxer 2019</p>
       </section>
     );
   }

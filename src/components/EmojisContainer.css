@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
 
 .EmojisContainer {
   font-family: 'Black Ops One', cursive;
@@ -8,5 +9,11 @@
     width: 100%;
     text-align: center;
     margin: 0 auto;
+  }
+
+  .copyright {
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    font-size: .75em;
   }
 }
