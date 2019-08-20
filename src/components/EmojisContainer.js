@@ -8,7 +8,7 @@ export default class EmojisContainer extends Component {
   state = {
     text: ''
   }
-  // need to write function handleSearchUpdate, target.value thing
+  
   handleSearchUpdate = ({ target }) => {
     this.setState({ text: target.value });
   }

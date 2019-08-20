@@ -7,7 +7,7 @@ function Emojis({ emojis }) {
     <li key={emoji.codes}>
       <Emoji 
         name={emoji.name}
-        symbol={emoji.symbol}
+        char={emoji.char}
       />
     </li>
   ));

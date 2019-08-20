@@ -1,17 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Emoji({ symbol, name }) {
+function Emoji({ char, name }) {
   return (
     <section>
       <h4>{name}</h4>
-      <p>{symbol}</p>
+      <p>{char}</p>
     </section>
   );
 }
 
 Emoji.propTypes = {
-  symbol: PropTypes.string.isRequired,
+  char: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired
 };
 
