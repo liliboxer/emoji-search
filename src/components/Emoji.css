@@ -2,7 +2,6 @@
 
 .Emoji {
   font-family: 'Montserrat Alternates', sans-serif;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   width: 10vw;
