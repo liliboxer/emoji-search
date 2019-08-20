@@ -1,5 +1,4 @@
-const emoji = require('emoji.json');
+const emojiData = require('./src/services/emojiData');
 
-
-console.log(emoji[2])
+console.log(emojiData[1])
 ;
