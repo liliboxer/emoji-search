@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Search.css';
 
 function Search({ text, handleSearchUpdate }) {
   return (
-    <form>
+    <form className={styles.Search}>
       <input
         type="text"
         value={text}

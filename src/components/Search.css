@@ -1,0 +1,16 @@
+.Search {
+  border: 1px dotted turquoise;
+  text-align: center;
+
+  input {
+    width: 40vw;
+    height: 10vh;
+    text-align: center;
+  }
+
+  ::-webkit-input-placeholder {
+    text-align: center;
+ 
+ }
+
+}
