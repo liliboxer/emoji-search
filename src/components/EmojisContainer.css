@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+
+.EmojisContainer {
+  font-family: 'Black Ops One', cursive;
+
+  h1 {
+    color: black;
+  }
+}
