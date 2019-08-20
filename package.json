@@ -25,6 +25,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "emoji.json": "^12.1.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
