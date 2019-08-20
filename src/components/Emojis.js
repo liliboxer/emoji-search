@@ -3,18 +3,18 @@ import PropTypes from 'prop-types';
 import Emoji from './Emoji';
 
 function Emojis({ emojis }) {
-  const emojiList = emojis.map(emoji => (
+  const emojisElement = emojis.map(emoji => (
     <li key={emoji.codes}>
       <Emoji 
-        symbol={emoji.symbol}
         name={emoji.name}
+        symbol={emoji.symbol}
       />
     </li>
   ));
 
   return (
     <>
-      <ul>{emojiList}</ul>
+      <ul>{emojisElement}</ul>
     </>
   );
 }

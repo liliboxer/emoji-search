@@ -8,8 +8,7 @@ function Search({ text, handleSearchUpdate }) {
         type="text"
         value={text}
         onChange={handleSearchUpdate}
-        placeholder="search for an emoji!"
-      >
+        placeholder="search for an emoji!">
       </input>
     </form>
   );

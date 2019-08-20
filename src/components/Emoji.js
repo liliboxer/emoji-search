@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 function Emoji({ symbol, name }) {
   return (
-    <>
-      <p>{symbol}</p>
+    <section>
       <h4>{name}</h4>
-    </>
+      <p>{symbol}</p>
+    </section>
   );
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import Search from './Search';
+import EmojisContainer from './EmojisContainer';
 
 export default function App() {
-  return <Search />;
+  return <EmojisContainer />;
 }
   

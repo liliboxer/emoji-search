@@ -1,4 +1,4 @@
-[
+export const emojiList = [
   {
   "codes": "1F600",
   "char": "😀",
